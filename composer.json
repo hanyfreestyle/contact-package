@@ -1,0 +1,19 @@
+{
+    "name": "hanyfreestyle/contact",
+    "description": "This Send Email To admin Test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hany Darwish",
+            "email": "hany.freestyle4u@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hanyfreestyle\\Contact\\": "src/"
+        }
+    }
+}
