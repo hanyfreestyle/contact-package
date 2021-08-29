@@ -14,6 +14,10 @@ class ContactServiceProvider extends ServiceProvider{
             __DIR__.'/config/contact.php'=>config_path('contact.php'),
         ]);
 
+        $this->publishes([
+            __DIR__.'/public/AdminLTE' => public_path('AdminLTE'),
+        ],'PublicAssets');
+
     }
 
     public function register(){
