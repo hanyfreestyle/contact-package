@@ -15,5 +15,12 @@
         "psr-4": {
             "Hanyfreestyle\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hanyfreestyle\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
